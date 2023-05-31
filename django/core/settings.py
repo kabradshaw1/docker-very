@@ -124,6 +124,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+STATIC_ROOT = '/django/static'
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
